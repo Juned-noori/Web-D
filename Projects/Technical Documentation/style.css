@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  scroll-behavior: smooth;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sidecontant {
+  display: flex;
+
+  flex-direction: column;
+  /* background-color: red; */
+  width: 13rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-right: 2.3px solid black;
+  height: 39.1rem;
+  position: sticky;
+  top: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.htmlaside {
+  padding-left: 4rem;
+  margin-bottom: 1rem;
+}
+.allcontant {
+  margin-left: 3rem;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 8.5rem;
+  width: 100%;
+}
+.all {
+  /* background-color: blue; */
+  width: 13rem;
+  /* border-top: 2px solid black; */
+  padding-top: 1rem;
+}
+
+#asideli {
+  list-style: none;
+  border-top: 2px solid black;
+  padding-left: 0.5rem;
+}
+.htmla {
+  text-decoration: none;
+  color: black;
+  /* padding-top: 1rem; */
+}
+:hover {
+  color: rgb(56, 56, 56);
+}
+.contant {
+  width: 47rem;
+  padding: 1rem;
+}
+.contant2 {
+  width: 47rem;
+  padding: 1rem;
+}
+.comint {
+  font-size: large;
+  font-weight: 300;
+  padding-left: 1rem;
+}
+.full {
+  display: flex;
+  /* position: fixed; */
+  /* background-color: aqua; */
+}
+h3 {
+  font-weight: normal;
+}
+.shed {
+  background-color: #efefef;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.secondlast {
+  display: flex;
+  gap: 1rem;
+}
+.lessgrater {
+  display: flex;
+  flex-direction: column;
+  width: 4rem;
+  padding-top: 1rem;
+}
+.last2 {
+  display: flex;
+  gap: 4rem;
+}
+#lastul {
+  width: 22rem;
+  outline: none;
+  border: none;
+}
+.all {
+  /* padding-right: 1rem; */
+  /* background-color: aqua; */
+  /* border: 2px solid black; */
+  width: 12.9rem;
+}

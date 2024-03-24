@@ -1,0 +1,271 @@
+html{
+    scroll-behavior:smooth ;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ebebeb;
+}
+.heading{
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: .7rem;
+    background-color: white;
+    padding-top: 1rem;
+}
+h6{
+    text-align: center;
+}
+.cont1{
+    /* background-color: #c9c9c9; */
+    height: 131vh;
+    display: flex;
+    max-width:  ;
+}
+
+    
+
+.dog1{
+    height: 52rem;
+    width: 46.6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    /* text-align: center; */
+    background-color: white;
+}
+.dog1 h1{
+    font-size: 22px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.articalcon{
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.dog1 img{
+    height: 35rem;
+}
+
+.sidenews{
+    width: 14.3rem; 
+}
+
+.india{
+    width: 13.3rem;
+    height: 18.5rem;
+    background-color: white;
+    margin-top: 1rem;
+    font-size: 14px;
+    padding-left: 1rem;
+}
+.india h1{
+    padding-top: 1rem;
+}
+
+.india img{
+    height: 8.5rem;
+}
+
+
+.cricket{
+    width: 13.3rem;
+    height: 20.5rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-size: 14px;
+    padding-left: 1rem;
+}
+.cricket h1{
+    padding-top: 1rem;
+}
+
+.cricket img{
+    height: 7rem;
+}
+.education{
+    width: 13.3rem;
+    height: 19rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-size: 14px;
+    padding-left: 1rem;
+}
+.education h1{
+    padding-top: 2rem;
+}
+
+.education img{
+    height: 7rem;
+}
+
+
+.science{
+    width: 13.3rem;
+    height: 19rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-size: 14px;
+    padding-left: 1rem;
+}
+.science h1{
+    padding-top: 2rem;
+    font-size: 25px;
+}
+
+.science img{
+    height: 7rem;
+}
+
+
+.bollywood{
+    width: 13.3rem;
+    height: 18rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-size: 14px;
+    padding-left: 1rem;
+}
+.bollywood h1{
+    padding-top: 2rem;
+    font-size: 25px;
+}
+
+.bollywood img{
+    height: 7rem;
+}
+
+.one{
+    width: 22rem;
+    height: 12rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-size: 14px;
+    padding-left: 1rem;
+}
+.onecon h1{
+    padding-top: 2rem;
+    font-size: 25px;
+}
+
+.onecon img{
+    height: 12rem;
+}
+
+.afterdog{
+    width: 47.4rem;
+    display: flex;
+    position: relative;
+    margin-left: 1rem;
+}
+.one{
+    background-color: white;
+    height: 33rem;
+    width: 21rem;
+}
+.one img{
+    position: relative;
+    height: 11rem;
+    width: 20rem;
+}
+.afterdogcont{
+    margin-right: 1rem;
+}
+.two{
+    background-color: white;
+    height: 39rem;
+    width: 21rem;
+    margin-top: 1rem;
+}
+.two img{
+    position: relative;
+    height: 11rem;
+    width: 19rem;
+    padding-left: 1rem;
+    
+}
+
+.two h1 {
+padding-left: 1rem;
+}
+.two p {
+padding-left: 1rem;
+}
+
+
+
+.new{
+    height: 45rem;
+    width: 46.6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    /* text-align: center; */
+    background-color: white;
+}
+
+
+.new img{
+    height: 26.2rem;
+}
+
+
+.three{
+    width: 46.6rem;
+    display: flex;
+    gap: 8px;
+
+}
+.threeone{
+    width: 16rem;
+    background-color: white;
+}
+.threeone img{
+    height: 9rem;
+}
+.threeone h2 , p{
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+#dogimg{
+    height: 9.2rem;
+    
+}
+.mark {
+    height: 45rem;
+    width: 46.6rem;
+    margin-left: rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    /* text-align: center; */
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+    
+.black{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    width: 100vw;
+    margin-left: -2rem;
+    justify-content: space-evenly;
+    padding-right: 2rem;
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      .fullcontainer {
+        background-color: black;
+        border: 2px solid white;
+        color: white;
+        margin-left: 16rem;
+        margin-right: 9rem;
+        padding: 1rem;
+        padding-bottom: 2rem;
+      }
+      h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+      }
+      h2 {
+        /* padding-top: 1rem; */
+        font-size: 40px;
+        font-weight: normal;
+        padding-left: 0.4rem;
+      }
+      .firstbox {
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+        width: 30rem;
+        padding: 5px;
+        padding-top: 0.5rem;
+        border-radius: 0.5rem;
+      }
+      p,
+      .namep {
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        gap: 9rem;
+        padding-left: 0.3rem;
+      }
+      .csp {
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        gap: 16rem;
+        padding-left: 0.3rem;
+      }
+      .secondbox {
+      }
+      .largeb {
+        width: 34rem;
+        padding: 5px;
+        padding-top: 0.5rem;
+        border-radius: 0.5rem;
+      }
+      .zip {
+        width: 11rem;
+        padding: 5px;
+        padding-top: 0.5rem;
+        border-radius: 0.5rem;
+        margin-left: 0.5rem;
+      }
+      .pep {
+        display: flex;
+        gap: 15.5rem;
+      }
+      .country {
+        width: 30rem;
+        padding: 5px;
+        padding-top: 0.8rem;
+        border-radius: 0.5rem;
+        margin-left: 0.5rem;
+      }
+      .radio {
+        display: flex;
+        gap: 0.5rem;
+        /* margin-bottom: 0px; */
+      }
+      .allgood {
+        display: flex;
+        flex-direction: ;
+      }
+      .allgoodbaap {
+        display: flex;
+        flex-direction: column;
+      }
+      button{
+        color: white;
+        background-color: rgb(17, 17, 255);
+        padding: .5rem;
+        font-size: large;
+        border-radius: 7px;
+        margin-top:2rem ;
+      }
+      .flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fullcontainer">
+      <h1>Survey Form</h1>
+      <hr />
+      <h2>Customer Name</h2>
+      <div class="firstbox">
+        <input class="firstbox" type="text" />
+        <input class="firstbox" type="text" />
+      </div>
+      <div class="namep">
+        <p>Enter your first name</p>
+        <p>Enter your last name</p>
+      </div>
+      <h2>Address</h2>
+      <div class="secondbox">
+        <input class="largeb" type="text" />
+        <p>Street Adderss</p>
+
+        <input class="largeb" type="text" />
+        <p>Street Adderss line 2</p>
+      </div>
+      <div class="firstbox">
+        <input class="firstbox" type="text" />
+        <input class="firstbox" type="text" />
+      </div>
+      <div class="csp">
+        <p>City</p>
+        <p>State</p>
+      </div>
+      <input class="zip" type="text" />
+      <p class="zip">zip</p>
+      <div>
+        <select class="country">
+          <option>Lebenon</option>
+          <option>India</option>
+          <option>Pakistan</option>
+          <option>Shrilanka</option>
+          <option>Nepal</option>
+        </select>
+        <p class="zip">Select Country</p>
+      </div>
+
+      <h2>Contacts</h2>
+      <div class="firstbox">
+        <input class="firstbox" type="text" />
+        <input class="firstbox" type="text" />
+      </div>
+      <div class="pep">
+        <p>Phone</p>
+        <p>Email</p>
+      </div>
+
+      <h2>Personal Details</h2>
+      <div class="radio">
+        <p>Male</p>
+        <input name="gender" type="radio" />
+      </div>
+      <div class="radio">
+        <p>Female</p>
+        <input name="gender" type="radio" />
+      </div>
+      <div class="radio">
+        <p>Other</p>
+        <input name="gender" type="radio" />
+      </div>
+
+      <h2>Ratings</h2>
+
+      <div class="allgoodbaap">
+        <div class="">
+          Rating 1: <input name="good" type="radio" /> Bad
+          <input name="a" type="radio" /> Good
+          <input name="a" type="radio" /> Excelent
+        </div>
+        <div class="">
+          Rating 2: <input name="good" type="radio" /> Bad
+          <input name="b" type="radio" /> Good
+          <input name="b" type="radio" /> Excelent
+        </div>
+        <div claa">
+          Rating 3: <input name="good" type="radio" /> Bad
+          <input name="c" type="radio" /> Good
+          <input name="c" type="radio" /> Excelent
+        </div>
+        <div class="">
+          Rating 4: <input name="good" type="radio" /> Bad
+          <input name="d" type="radio" /> Good
+          <input name="d" type="radio" /> Excelent
+        </div>
+        <div class="">
+          Rating 5: <input name="good" type="radio" /> Bad
+          <input name="e" type="radio" /> Good
+          <input name="e" type="radio" /> Excelent
+        </div>
+        <div class="">
+          Rating 6: <input name="good" type="radio" /> Bad
+          <input name="f" type="radio" /> Good
+          <input name="f" type="radio" /> Excelent
+        </div>
+        <div class="">
+          Rating 7: <input name="good" type="radio" /> Bad
+          <input name="g" type="radio" /> Good
+          <input name="g" type="radio" /> Excelent
+        </div>
+      </div class="flex" >
+      <button>Submit</button>
+    </div>
+  </body>
+</html>

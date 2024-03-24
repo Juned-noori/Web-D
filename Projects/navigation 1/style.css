@@ -1,0 +1,91 @@
+    
+    body{
+        background-color: rgb(243, 249, 255);
+    }
+    .navbar{
+        width: 63rem;
+        background-color: black;
+        color: white;
+        display: flex;
+        height: 3.5rem;
+        box-shadow:-2px 1px 10px 2px gray;
+        
+        }
+        h2{
+            padding-left:5rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        
+        .name{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    .about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:1rem ;
+        width: 83%;
+        color: white;
+
+    }
+    li{
+        list-style: none;
+    }
+    ul{
+        display: flex;
+        gap: 1rem;
+
+    }
+    select{
+        border-radius: .7rem;
+        border: none;
+        outline: none;
+        padding: .3rem;
+        background-color: #2ec3c3;
+        color: white;
+    }
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    .con{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right:5rem;
+
+    }
+    button{
+        width: 5rem;
+        padding-bottom: .3rem;
+        padding-top: .3rem;
+        background-color: rgb(46 195 195);
+        color: white;
+        border-radius:1rem ;
+        border: none;
+        outline: none;
+        
+        
+    }
+    input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+        border-radius: .4rem;
+        height:1.5rem ;
+        border: none;
+        outline: none;
+        
+    }
+    ::placeholder{
+        padding-left: 2rem;
+    }
+    a:hover{
+        color: rgb(46 195 195);
+    }

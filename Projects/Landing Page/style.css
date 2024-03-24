@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.nav{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    padding-top: 1rem;
+}
+#navlogo{
+    height: 5rem;
+    border-radius: 3rem;
+    width: 5rem;
+    border-color: 1px solid red;
+}
+.camera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: red;
+    border-radius: 5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.five{
+    margin-right: 2rem;
+    padding-top: 1rem;
+}
+ul{
+    display: flex;
+    gap: 3rem;
+    /* background-color:burlywood; */
+    height: 3rem;
+    align-items: center;
+}
+li{
+    list-style: none;
+    font-size:30px;
+    color: rgb(98, 19, 255);
+}
+li:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+#home{
+    color: red;
+}
+#home:hover{
+    color: rgb(255, 255, 255);
+}
+.login{
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.btn1{
+    padding: .5rem;
+    border-radius: .8rem;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    outline: none;
+    border: 1px solid red;
+    background-image: linear-gradient(to right, #ff3232 , rgb(230, 0, 0));
+}
+#hash{
+    color: rgb(255, 0, 0);
+}
+.text{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 23rem;
+}
+h1{
+    color: white;
+    font-size: 44px;
+}
+p{
+    color: white;
+    font-size: medium;
+}
+img{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    outline: 2px solid red;
+}
+.smallimg{
+    display: flex;
+    align-items: center;
+}
+.godsmallimg{
+    display: flex;
+    gap: .2rem;
+}
+#iph{
+    width: 33rem;
+    height: 20rem;
+    border-radius: 0;
+    outline: none;
+    margin-top: 10rem;
+}
+.allcont{
+    display: flex;
+}
+.btn2{
+    padding: .5rem;
+    border-radius: .8rem;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    outline: none;
+    border: 1px solid red;
+    background-image: linear-gradient(to right, #ff3232 , rgb(230, 0, 0));
+}
+.Learn{
+    padding-left: 2rem;
+}
+.btn1:hover{
+    /* background-color: white; */
+    color: red;
+    background-image: linear-gradient(to right, #ffffff , rgb(255, 255, 255));
+}
+.btn2:hover{
+    /* background-color: white; */
+    color: red;
+    background-image: linear-gradient(to right, #ffffff , rgb(255, 255, 255));
+}

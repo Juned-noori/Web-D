@@ -1,0 +1,344 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(40, 40, 40);
+    justify-content:space-around;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    position: sticky;
+    top: 0rem;
+}
+.left{
+    font-weight:400;
+}
+.left h1{
+    font-weight:normal;
+    color:aqua;
+    font-size: 21px;
+}
+.navli {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-transform:uppercase;
+}
+.navli a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.navli a:hover{
+   color: aqua;
+}
+.left h1:hover{
+   color: yellow;
+}
+
+
+
+
+.oneimg{
+     height: 37.3rem;
+    width: 62.9rem;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.oneimgcont {
+    color: white;
+    width: 60vw;
+    margin: auto;
+    margin-top: 12rem;
+    text-align: center;
+    padding-bottom: 10rem;
+}
+.oneimgcont h2{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 28px;
+    text-shadow: 1px 1px 4px black;
+}
+.oneimgcont h1{
+    text-transform: uppercase;
+    font-size: 55px;
+    text-shadow: 1px 1px 2px black;
+}
+
+button{
+    padding: 1rem;
+    background-color: aqua;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: .2rem;
+}
+button:hover{
+    background-color: rgb(36, 217, 217);
+    color: rgb(240, 240, 240);
+}
+.secpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 7rem;
+
+}
+.secpage1{
+    width: 20rem;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+
+
+}
+.allp {
+    margin-top: -1rem;
+    color: rgb(160, 160, 160);
+    font-size: 12px;
+    
+}
+.secpage2{
+    width: 14rem;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    margin: 0rem;
+}
+.secpage3{
+    width: 15rem;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    margin: 0rem;
+}
+.secpage4{
+    width: 15rem;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    margin: 0rem;
+}
+.portfolio{
+    background-color: #f7f7f7;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+.portfolio h1{
+    /* padding-top: 5rem; */
+}
+.card {
+    height: 14rem;
+    width: 14rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.card img{
+    height: 9.3rem;
+}
+/* .card img:hover{
+background-color: aqua;
+visibility: hidden;} */
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+    margin: 1rem;
+}
+.abouthp{
+    width: 33rem;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+.abouthp h1{
+    padding-bottom: 1rem;
+}
+.allabout{
+    width: 24rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 10rem;
+    margin-right    : 10rem;
+}
+.about1{
+    width: 18rem;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    margin: 0rem;
+}
+.about1 h4{
+    display:flex;
+    justify-content: flex-end;
+}
+.allabout2 h4{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.about1 h4::first-line{
+    padding-left: 2rem;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: aqua; /* Blue color */
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px -4px black; /* Makes it a circle */
+    margin-top: 2rem;
+    margin: auto;
+}
+.allabout2{
+    width: 24rem;
+    display: flex;
+    gap: 2rem;
+    margin-left: 28.4rem;
+
+}
+.circle p{
+    padding-top: 2rem;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-top: 2rem;
+
+}
+.blackcircle{
+    width: 29px;
+    height: 29px;
+    background-color: rgb(0, 0, 0); /* Blue color */
+    border-radius: 50%;
+}
+.allblackcircle{
+    display: flex;
+    gap: 1rem;
+    margin-left: 3.7rem;
+}
+.all3{
+    display: flex;
+    padding-left: 9rem;
+    margin-bottom: 4rem;
+}
+.Aboutlastp{
+    text-align: center;
+    width: 38rem;
+    margin: auto;
+}
+.teampage{
+    height: 21rem;
+    margin-top: 8rem;
+}
+.lasth{
+    margin: auto;
+    color: white;
+    width: 14rem;
+    height: 2rem;
+    padding-top: 6rem;
+    margin-bottom: 6rem;
+    
+}
+.lastpage{
+    background-image: url(img/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42rem;
+}
+/* .grid{
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    border: 2px solid rgb(255, 0, 0);
+    margin-top: 7rem;
+    margin: auto;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.item{
+    height: 20px;
+    width: 20px;
+    border: 2px rgb(12, 184, 32);
+    color: white;
+} */
+form{
+    width: 70vw;
+    height: 45vh;
+    margin-top: 7rem;
+    margin: auto;
+    margin-right: 12rem;
+    display: flex;
+}
+input{
+    padding:.8rem 11rem .8rem 1rem;
+    margin: 1rem;
+    outline: none;
+}
+textarea{
+    height: 14em;
+    width: 17rem;
+    margin: 1rem;
+    outline: none;
+}
+.lbutton{
+    padding: 1rem;
+    background-color: aqua;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: .2rem;
+    margin-left: 27rem ;
+}
+.lastdiv{
+    display: flex;
+    justify-content: space-around;
+}
+.allblackcirclel{
+display: flex;
+gap: .8rem;
+margin-left: 3.7rem;
+padding-top: 1rem;
+padding-right: 7rem;
+}
+a, h5{
+    text-decoration: none;
+    color: black;
+}
+a, h6{
+    text-decoration: none;
+    color: aqua;
+}
+.allblackcirclel:hover{
+    color: aqua;
+}

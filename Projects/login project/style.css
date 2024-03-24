@@ -1,0 +1,81 @@
+
+.container{
+    border-color: red;
+    background-color: rgb(220, 220, 220);
+   
+    
+    border-radius: 8px;
+    width: 20rem;
+    margin-left: 20rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    
+    
+    box-shadow: 9px 16PX 2rem -17px black;
+}
+img{
+        max-width: 40%;
+        max-height: 40%;
+        padding-left: 17rem;
+}
+div.h{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-left: 1.5rem;
+}
+.mailpass{
+    padding-left: 3rem;
+
+}
+#email{
+    width: 13rem;
+}
+#pass{
+    width: 13rem;
+}
+.firstbtn{
+    padding-left: 4.5rem;
+}
+.para {
+    padding-left: 3rem;
+}
+
+#log{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: rgb(35, 134, 35);
+    border-style: none;
+    border-radius: 2px;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+
+}
+#git{
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    margin-left: 0.3rem;
+    background-color: rgb(77, 128, 127);
+    color: aliceblue;
+    border-style: none;
+    border-radius: 2px;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+}
+
+.one{
+    color: rgb(35, 134, 35);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec{
+    font-style: italic;
+}
+.para a {font-style: normal;
+    color: rgb(35, 134, 35);
+    text-decoration: none;
+
+}
+#log:hover{
+    background-color:darkcyan ;
+
+}

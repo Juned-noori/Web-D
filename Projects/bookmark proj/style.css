@@ -1,0 +1,44 @@
+
+
+body{
+    background-color: rgb(8, 2, 2);
+}
+.imp{
+    color: rgb(255, 249, 249)   ;
+    position:relative;
+    padding-left: 17rem;
+
+
+}
+.imp2{
+    color: aqua;
+    position: relative;
+padding-left: 25rem;
+}
+
+.its-one{
+    background-color:                   rgb(49, 19, 13);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif               ;
+    position:relative;
+    padding-left:23rem          ;
+   font-size: medium   ;
+
+ color: #fff8f8;
+ box-sizing: border-box;
+ /* border-radius: 2rem;//   */
+   
+}
+
+.its-one :hover{
+    background-color:                   rgb(49, 19, 13);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif               ;
+   
+   font-size: medium   ;
+
+ color: #fff8f8;
+
+   box-sizing: border-box;
+ /* border-radius: 2rem; / */
+}
+
+

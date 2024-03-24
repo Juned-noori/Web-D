@@ -1,0 +1,108 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #dfdfdf;
+
+}
+.whole{
+    width: 73.9vw;
+    margin: auto;
+    box-shadow: 1px 4px 15px 0px black; 
+    background-color: white;
+    margin-top: 2rem;
+}
+.firstpage{
+    display: flex;
+    margin-bottom: -.3rem;
+}
+.imghalf img{
+    height: 30rem;
+}
+.firsthalf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    text-align: center;
+}
+.firsthalf h5{
+    font-size: 16px;
+    margin-top: 0rem;
+    color: #666666;
+}
+.firsthalf h1{
+    margin-bottom: 0rem;
+}
+button{
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 5rem;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    background-color: white;
+    color: #666666;
+}
+button:hover{
+    background-color: aliceblue;
+}
+.work{
+    background-color: black;
+    color: white;
+    /* width: 100vw; */
+    height: 5rem;
+    margin: 0%;
+}
+.work h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+    padding-top: 1.8rem;
+    font-size: 1.5rem;
+}
+.cont{
+    background-color: white;   
+    
+}
+.cont img{
+    height: 26.6rem;
+}
+.contin{
+    text-align: center;
+    height: 33rem;
+}
+.contin h4{
+    font-size: 17px;
+}
+.contin p{
+    font-size: 13px;
+}
+
+.last{
+    width: 20rem;
+    margin: auto;
+    text-align: center;
+}
+.last h1{
+    font-size: 3rem;
+}
+.last h4{
+    font-size: 16px;
+    font-weight: normal;
+}
+.last p{
+    font-size: 17px;
+}
+.last h3{
+    font-size: 17px;
+    font-weight: normal;
+}
+.last h3 span{
+    font-size: 17px;
+    color: red;
+}
+span{
+    font-weight: bold;
+}
