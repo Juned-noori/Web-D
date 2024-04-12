@@ -1,0 +1,275 @@
+html{
+    font-size: 62%;
+    scroll-behavior: smooth;
+}
+body::selection{
+    color: white;
+    background-color: #50ff5098;
+}
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+nav img{
+    height: 6rem;    
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 59rem;
+    position: sticky;
+    top: 0rem;
+    background-color: white;
+
+}
+.fa-solid{
+    font-size: 2rem;
+    margin-right: 2rem;
+    margin-left: rem;
+}
+.image img{
+    height: 30rem;
+    border-radius: 16rem;
+}
+.imageandcont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75vw;
+    margin: auto;
+    padding-top: 5rem;
+}
+.cont{
+    width: 33vw;
+    height: 40vh;
+}
+.cont #one{
+    font-size: 1rem;
+    background-color: #07b507;
+    outline: none;
+    border: none;
+    color: white;
+    padding: .8rem 2rem .8rem 2rem;
+}
+.cont #one:hover{
+    font-size: 1rem;
+    background-color: #069b06;
+    outline: none;
+    border: none;
+    color: rgb(240, 240, 240);
+    padding: .8rem 2rem .8rem 2rem;
+    
+}
+.cont h1{
+    font-size: 4rem;
+    margin: 3rem 0rem 2rem 0rem;
+}
+button{
+    transition: all 0.2s ease-in-out;
+}
+#second{
+    font-size:1.7rem;
+    background-color: #f5b200b0;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+#second:hover{
+    font-size:1.7rem;
+    background-color: #dfa300d2;
+    outline: none;
+    border: none;
+    color: rgb(249, 249, 249);
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.three{
+    width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+ 
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    border-radius: .5rem;
+    transition: box-shadow 0.3s ease-in-out .02s;
+    
+}
+.one:hover{
+    box-shadow:  0.1rem 0.1rem 2.8rem -0.9rem black;
+    
+}
+.img img{
+    height: 6rem;
+}
+.handp h3{
+    padding-bottom: .5rem;
+}
+.handp p{
+    color: #8f8f8f;
+}
+.top_section{
+    border-bottom: 1.5px solid #adacac;
+    width: 100%;
+}
+
+
+.bnh{
+    width: 20vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+}
+#third{
+    background-color:#069b06;
+    outline: none;
+    border: none;
+    color: white;
+    padding: .5rem;
+    margin-bottom: 2rem;
+}
+#third:hover{
+    background-color:#038103;
+    outline: none;
+    border: none;
+    color: rgb(229, 229, 229);
+    padding: .5rem;
+    margin-bottom: 2rem;
+}
+.foods{
+    width: 55vw;
+    /* height: 70vh; */
+    margin: auto;
+    display: grid;
+    /* margin-bottom: 5rem; */
+    /* grid-template-areas: "food1 food1 food2 food3"
+                         "food1 food1 food2 food7"
+                         "food4 food5 food6 food7"; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;                     
+    grid-template-rows: 1fr 1fr 1fr  ;
+   row-gap:.8rem ;                     
+   column-gap:.5rem ;     
+                  
+}
+/* @keyframes myani {
+   from{
+    transform: scale(2);
+   }
+}
+
+
+
+
+
+.food{
+    /* transition: all ease-in-out .03s ;  */
+    /* animation: myani .03s ease-in .01 ; */
+
+
+.food1{
+    grid-column:1/3 ;
+    grid-row:1/3 ;
+   
+}
+.food1 img{
+    height: 29rem;
+    width: 28.6rem;
+}
+.food2 img{
+    height: 29rem;
+    width:14rem;
+}
+.food3 img{
+    height: 14rem;
+}
+.food4 img{
+    height:14rem;
+}
+.food5 img{
+    height:14rem;
+}
+.food6 img{
+    height:14rem;
+}
+.food7 img{
+    height: 28.6rem;
+    width:13.8rem;
+}
+.food2{
+    grid-column:3/4 ;
+    grid-row:1/3 ;
+
+}
+
+
+.food7{
+    grid-column: 4/5;
+    grid-row:-3/-1 ;
+}
+.last_section{
+    /* width: 100vw; */
+    /* height: 30vh; */
+    margin-top: 5rem;
+    background-color: antiquewhite;
+}
+.logo img{
+    height: 5rem;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    padding: 2rem 0rem 5rem 0rem;
+}
+.links h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #383838;
+}
+li{
+    list-style: none;
+    margin-bottom: .5rem;
+
+   
+}
+a{
+    text-decoration: none;
+    color: #383838;
+
+}
+input{
+    padding: .3rem 2rem .3rem .2rem;
+}
+
+@media only screen and (max-width:786px){
+    html{
+font-size: 55%;
+    }
+   
+}
+@media only screen and (max-width:570px){
+    .imageandcont{
+        flex-direction: column;
+        width: 80vw;
+    }
+    .three{
+        flex-direction: column;
+        }
+}

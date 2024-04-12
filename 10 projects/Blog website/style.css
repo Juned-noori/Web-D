@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62%;
+    font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    padding: 2rem 55rem 2rem 7rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 55rem;
+    position: sticky;
+    background-color: white;
+    top: 0rem;
+    z-index: 5rem;
+}
+
+nav h1{
+    font-size: 1.8rem;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+   
+}
+nav .other-a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+nav .other-a{
+    width: 5rem;
+    height: 2.3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .4rem;
+    transition: all .2s ease-in;
+}
+nav img{
+    height: 2rem;
+}
+.img-section img{
+    height: 29rem;
+    border-radius: 5rem;
+}
+.first-section{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 5rem 2rem 6rem 2rem;
+}
+.first-section h1{
+    font-size: 6rem;
+}
+.first-section h3{
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 1rem 0rem 0rem 1rem;
+    color: #7c7c7c;
+}
+
+
+
+.second-section{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    /* padding: 5rem 2rem 5rem 2rem; */
+    border: 1.2px solid rgba(169, 169, 169, 0.653);
+    box-shadow:3px 7px 16px -2px #8f8f8f ;
+}
+.second-section h1{
+    font-size: 3rem;
+    margin: none;
+}
+.second-section p{
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    padding: 2rem 0rem 2rem 0rem;
+    color: #8a8a8a;
+}
+.second-section img{
+    height: 24rem;
+    width: 44rem;
+}
+.texts-2{
+    padding:3.5rem 3.5rem .5rem 5.5rem ;
+}
+.read-more{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.read-more h2{
+    font-size: 1.3rem;
+    width: 8rem;
+    height: 2.3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .4rem;
+    transition: all .2s ease-in;
+}
+.read-more h2:hover{
+    font-size: 1.3rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+   
+}
+
+
+
+
+.all-card{
+    margin: auto;
+    padding: 5rem 0rem 3rem 0rem;
+    width: 80vw;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.card{
+    width: 25.5rem;
+    /* height: 33rem; */
+    background-color: white;
+    box-shadow: 0px 6px 8px -3px #8f8f8f;
+}
+.card img{
+    height: 17rem;
+}
+.card-texts{
+    padding:1.5rem 1.5rem 1.5rem 1.5rem ;
+}
+.card-texts p{
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    padding: 1rem 0rem 1rem 0rem;
+    color: #8a8a8a;
+}
+
+
+.third-section{
+    width: 80vw;
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+   background-color:rgb(120 175 255 / 12%);
+   
+}
+.third-section h1{
+    font-size: 3rem;
+    margin: none;
+}
+.third-section p{
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    padding: 2rem 0rem 2rem 0rem;
+    color: #8a8a8a;
+}
+.third-section img{
+    height: 34rem;
+    width: 43rem;
+}
+.third-section-text{
+    margin: 6rem 2rem 5rem 5rem;
+}
+.seebtn{
+    width: 80vw;
+    margin: auto;
+    text-align: end;
+    padding: 3rem 0rem 4rem 0rem;
+}
+button{
+    
+    background-color: purple;
+    outline: none;
+    border: none;
+    padding: .7rem 1rem .7rem 1rem;
+    border-radius: .4rem;
+    font-weight: bold;
+}
+button:hover{
+    
+    background-color: rgb(97, 0, 97);
+    outline: none;
+    border: none;
+    padding: .7rem 1rem .7rem 1rem;
+    border-radius: .4rem;
+    font-weight: bold;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+button a:hover{
+    color: rgb(209, 209, 209);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+footer{
+    display: flex;
+    padding: 2rem 4rem 2rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-top: .5px solid rgb(207, 207, 207);
+   
+}
+
+footer h2{
+    font-size: 1.3rem;
+    /* width: 10rem; */
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+footer img{
+    height: 2rem;
+}
+
+nav img:hover{
+    transform: scale(1.1);
+
+}
+footer img:hover{
+    transform: scale(1.1);
+
+}
+::selection{
+    background-color: rgb(255, 156, 120);
+    color: #7c7c7c;
+}

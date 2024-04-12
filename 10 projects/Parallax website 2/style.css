@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page1{
+    background-image: url(img/1.jpeg);
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+}
+.page2{
+    background-image: url(img/2.jpeg);
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+
+}
+.page3{
+    background-image: url(img/3.jpeg);
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+
+}
+.page4{
+    background-image: url(img/4.jpeg);
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+
+}
+.page5{
+    background-image: url(img/5.jpeg);
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+
+}
+.parallex h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: white;
+}
+.parallex{
+    background-color: red;
+    width: 22rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color:rgb(49,53,52);
+
+}
+.sec{
+    padding: 1rem 3rem 4rem 3rem;
+    text-align: center;
+}
+.sec h1{
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+.parallexall{
+    /* width: 29rem; */
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color:rgb(42 42 42 / 26%)
+
+}
+.parallexall h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    color: white;
+}
+.sec2{
+    padding: 1rem 3rem 4rem 3rem;
+    text-align: center;
+    background-color:rgb(49,53,52);
+    color: white;
+}
+.sec2 h1{
+    margin-bottom: 1rem;
+    font-weight: normal;
+
+}

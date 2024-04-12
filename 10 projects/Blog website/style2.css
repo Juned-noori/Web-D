@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background-color: rgb(255, 156, 120);
+    color: #7c7c7c;
+}
+html{
+    font-size: 62%;
+    font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    padding: 2rem 55rem 2rem 7rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 55rem;
+    position: sticky;
+    background-color: white;
+    top: 0rem;
+    z-index: 5rem;
+}
+
+nav h1{
+    font-size: 1.8rem;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+   
+}
+nav .other-a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+nav .other-a{
+    width: 5rem;
+    height: 2.3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .4rem;
+    transition: all .2s ease-in;
+}
+nav img{
+    height: 2rem;
+}
+.whole-page{
+    margin: 2rem 8rem 3rem 8rem;
+}
+.whole-page img{
+    height: 52rem;
+}
+h1{
+    font-size: 4rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+h4{
+    font-size: 1.6rem;
+    margin-right: 1rem;
+}
+#color-p1{
+    color: #8a8a8a;
+    font-size: 1.3rem;
+}
+#color-p{
+    color: #8a8a8a;
+    font-size: 1.3rem;
+    margin: 2rem 0rem 2rem 0rem;
+}
+.handp{
+    display: flex;
+    gap: 2rem;
+}
+.topsection{
+    border-bottom:1px solid #b1b1b1b9;
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+
+h5{
+    font-size: 1.4rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+h2{
+    font-size: 3rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+
+
+.seebtn{
+    width: 80vw;
+    margin: auto;
+    text-align: end;
+    padding: 3rem 0rem 4rem 0rem;
+}
+button{
+    
+    background-color: purple;
+    outline: none;
+    border: none;
+    padding: .7rem 1rem .7rem 1rem;
+    border-radius: .4rem;
+    font-weight: bold;
+}
+button:hover{
+    
+    background-color: rgb(97, 0, 97);
+    outline: none;
+    border: none;
+    padding: .7rem 1rem .7rem 1rem;
+    border-radius: .4rem;
+    font-weight: bold;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+button a:hover{
+    color: rgb(209, 209, 209);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer-section */
+
+footer{
+    display: flex;
+    padding: 2rem 4rem 2rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-top: .5px solid rgb(207, 207, 207);
+   
+}
+
+footer h2{
+    font-size: 1.3rem;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+ul li{
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+footer img{
+    height: 2rem;
+}
+
+nav img:hover{
+    transform: scale(1.1);
+
+}
+footer img:hover{
+    transform: scale(1.1);
+
+}

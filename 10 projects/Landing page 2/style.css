@@ -1,0 +1,126 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.first{
+    background-image: url(img/1.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0rem 0rem -9rem 0rem;
+
+}
+.heading{
+    width: 42vw;
+    margin: auto;
+    padding-top: 1rem;
+    
+    }
+.heading h1{
+    color: white;
+    font-weight: normal;
+    font-size: 2rem;
+}
+.heading span{
+    font-size: 16px;
+    font-weight: normal;
+}
+#upper{
+    text-transform: uppercase;
+}
+.black{
+    background-color: black;
+    color: white;
+    height: 9rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.black h1{
+    font-weight: normal;
+   font-size: 2.8rem;
+}
+.black span{
+font-size: 5rem;
+padding-left: 1rem;
+}
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    /* height: 75vh; */
+    margin: auto;
+    padding: 6rem 0rem 3rem;
+    gap: 2rem;
+}
+.box{
+    height: 23rem;
+    width: 14.9rem;
+    box-shadow: 0rem .1rem .2rem 0rem black;
+    background-color: white;
+    border-radius: 1rem;
+    transition: transform .3s ease-in-out .03s ;
+}
+.box:hover{
+   
+    transform: scale(1.1);
+}
+.box img{
+    height: 9.9rem;
+    padding-left: .5px;
+    object-position: center;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.box p{
+    font-size: 10px;
+    padding-bottom: .9rem;
+}
+.box h4{
+    padding-bottom: .5rem;
+}
+.align{
+    padding: 1rem;
+}
+.two{
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item{
+    padding: 1rem 3rem 3rem 3rem;
+    color: white;
+    background-color:#687823;
+
+}
+.item h1{
+    font-weight: normal;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+.item p{
+    font-weight: normal;
+    font-size: 13px;
+    padding-bottom:10px;
+}
+.item2{
+    background-color: #953e26;
+}
+.blackl{
+    background-color: black;
+    color: white;
+    height: 6rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blackl h1{
+    padding-top: 1rem;
+    font-weight: normal;
+   font-size: 1.4rem;
+}

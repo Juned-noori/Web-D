@@ -1,0 +1,324 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62%;
+}
+::selection{
+    color: rgb(12, 12, 12);
+    background-color: white;
+}
+:root{
+    --lighting-color: #0089b7;
+    --dark-color: #003d62;
+    --darker-color: #003251;
+    --yellow-color: #fff700;
+}
+
+   
+body{
+    font-family: "Poppins",sans-serif;
+}
+header{
+  position: sticky;
+  top: 0%;
+  z-index: 50%;
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--lighting-color);
+    padding: 1rem 9rem 1rem 9rem;
+    gap: 3rem;
+}
+nav h1{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+nav li{
+    list-style: none;
+    font-size: 1.6rem;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight:600;
+   transition: all .2s ease-in-out ;
+}
+nav a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight:600;
+    text-decoration: underline;
+    text-decoration-thickness: 3.4px;
+    text-decoration-color: #fff700;
+}
+main{
+    background: var(--dark-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 10rem 4rem 8rem;
+    font-family: "Poppins",sans-serif; 
+    border-bottom: 4px solid #0089b7;
+}
+.img-sec img{
+    height: 40rem;
+    border-radius: 13rem;
+    animation: bounceInLeft 2s ;
+    
+}
+
+
+@keyframes bounceInLeft {
+  0% {
+     opacity: 0;
+     transform: translateX(-2000px);
+  }
+  60% {
+     opacity: 1;
+     transform: translateX(30px);
+  }
+  80% {
+     transform: translateX(-10px);
+  }
+  100% {
+     transform: translateX(0);
+  }
+}
+
+
+
+#hi{
+    font-size: 4.7rem;
+    display: inline-flex;
+    color: var(--yellow-color);
+}
+span{
+    font-size: 2.5rem;
+    display: inline-flex;
+}
+#name{
+    font-size: 3.8rem;
+    display: inline-flex;
+    margin-left: .5rem;
+}
+#developer{
+    font-size: 4rem;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end)  ,
+      blink-caret .75s step-end infinite;
+     
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
+
+
+
+  .project-sec{
+    background: var(--darker-color);
+   
+  }
+  #project{
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 3rem 0rem 3rem 0rem;
+  }
+  
+
+  .grid{
+    display: grid;
+    margin: auto;
+    width: 70vw;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    column-gap: 1rem;
+    row-gap: 3rem;
+    place-items: center;
+    padding-bottom: 6rem;
+  }
+  .card{
+    display: grid;
+    overflow: hidden;
+    /* width: 18rem;
+    height: 25rem; */
+    place-content: center;
+    transition: all .2s ease-in-out;
+
+  }
+  .card:hover{
+    transform: scale(1.05);
+    transition: all .6s ease-in-out;
+    
+  }
+  .card:hover img{
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+    opacity: .8;
+  }
+  .grid img{
+    height: 22rem;
+    width: 18rem;
+    transition: all .3s ease-in-out;
+}
+  .card h1{
+    color: #003251;
+  }
+  .card-cont{
+    text-align: center  ;
+    padding: 1.5rem;
+    position: relative;
+    top: -5rem;
+    margin-bottom: -6rem;
+    transition: 0.5s ease-in-out;
+    width: 18rem;
+   transform: translateY(100%);
+  }
+  .card:hover .card-cont{
+  background-color: white;
+  width: 18rem;
+  transform: translateY(0%);
+
+  }
+  .center{
+    padding-top: 1rem;
+  }
+
+
+
+.whole-contect-sec{
+  background: var(--dark-color);
+  padding: 4rem 0rem;
+  }
+  .contact-sec{
+  padding: 3rem 0rem ;
+    color: white;
+    width: 60vw;
+    margin: auto;
+  }
+  .contact-sec  h1{
+    font-size: 4.5rem;
+    text-align: center;
+  }
+
+  
+  .icon-text{
+    /* background-color: white; */
+    width: 16rem;
+    height: 3.2rem;
+    /* color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+  }
+  .icon-text:hover{
+    background-color: white;
+    color:#003251;
+   
+  }
+  .icon-text:hover h1{
+    color:#003251;
+   
+  }
+  
+  .icon-text:hover .fa-brands  {
+    color: #003251;
+    transition: all .3s ease-in-out;
+  }
+  .icon-text:hover .fa-solid  {
+    color: #003251;
+    transition: all .3s ease-in-out;
+  }
+  .icon-text h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  
+  .all-icon-text{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2.7rem;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+  }
+  .fa-brands{
+    font-size: 3rem;
+    color:white;
+  }
+  .fa-solid{
+    font-size: 3rem;
+    color:white;
+  }
+  .left-trans{
+    transform: translateX(-0%);
+    transition: all .6s ease-in-out;
+   
+    
+  }
+  .left-trans:hover::before{
+   content: "MY ID";
+   font-size: 3rem;
+   padding: 2rem;
+   font-weight: bold;
+   color: #003251;
+   text-align: center;
+
+        transition: all .6s ease-in-out;
+
+  }
+  .left-trans:hover{
+    transform: translateX(30%);
+    background-color: white;
+  }
+  
+
+
+
+  .footer{
+    padding: 2rem;
+    background: var(--darker-color);
+
+  }
+  .footer h1{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+  }
