@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Chai Aur Code | Juned ahmed</title>
+</head>
+<body style="background-color: black; color: white;">
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+
+    function addlang(lang){
+        const li = document.createElement('li')
+        li.innerHTML=(`${lang}`)
+        document.querySelector('.language').appendChild(li)
+    }
+    addlang('python')
+    addlang('java')
+
+
+    function addOptiLang(lang){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(lang))
+        document.querySelector('.language').appendChild(li)
+
+    }
+    addOptiLang('cpp')
+    addOptiLang('c sharp')
+
+
+
+    // Edit 1
+
+    const secondsel = document.querySelector('li:nth-child(2)')
+
+    // console.log(secondsel);
+
+    const cratedLI = document.createElement('li')
+
+    cratedLI.appendChild(document.createTextNode('juned'))
+
+    secondsel.replaceWith(cratedLI)
+// //---------------------------------------------------
+//    // Edit 2
+
+   const lastLang = document.querySelector('li:last-child')
+   
+   const crLi = document.createElement('li')
+   crLi.appendChild(document.createTextNode('Ahmed'))
+
+   lastLang.replaceWith(crLi) 
+//---------------------------------------------------
+   
+const fourth = document.querySelector('li:nth-child(4)')
+
+const created = document.createElement('li')
+
+created.appendChild(document.createTextNode('noori'))
+
+fourth.replaceWith(created)
+
+</script>
+</html>

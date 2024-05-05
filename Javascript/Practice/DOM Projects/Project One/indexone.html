@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Box</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        .allBox{
+            margin: auto;
+            width: 60vw;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            flex-wrap: wrap;
+            padding-top: 5rem;
+        }
+        .box {
+            
+            height: 8rem;
+            width: 8rem;
+            margin: 1rem;
+            border: 2px solid black;
+            transition: all ease-in .1s;
+        }
+        .box:hover {
+            transform:scale(1.1);
+            /* transition: all; */
+        }
+        #boxone{
+            background-color: gray;
+        }
+        #boxtwo{
+            background-color: yellow;
+        }
+        #boxthree{
+            background-color: blue;
+        }
+        #boxfour{
+            background-color: red;
+        }
+        #boxfive{
+            background-color: white;
+        }
+        .htext{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
+        }
+        .htext h1{
+            margin: 0rem;
+            padding: 0rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="allBox">
+     <div class="htext">  <h1>Color Scheme Switcher </h1></div> 
+        <div class="box" id="boxone"></div>
+        <div class="box" id="boxtwo"></div>
+        <div class="box" id="boxthree"></div>
+        <div class="box" id="boxfour"></div>
+        <div class="box" id="boxfive"></div>
+        <div class="htext">  <h1>Try clicking on one of the color Above</h1></div>
+            <div class="htext"> <h1>To Change the Color of background </h1></div>
+            <div class="htext"> <h1>By Juned Ahmed </h1></div>
+
+
+    </div>
+</body>
+<script src="box.js"> </script>
+</html>
